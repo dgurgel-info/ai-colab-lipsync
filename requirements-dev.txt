@@ -1,0 +1,5 @@
+# Testes e prévia local da interface (sem GPU). O notebook instala o InfiniteTalk no Colab.
+requests
+gradio>=5,<7
+imageio-ffmpeg
+pytest

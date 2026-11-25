@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Mídia e arquivos temporários
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.zip
+temp/
+tmp/
+*.tmp
+
+# Ambientes
+.env
+.venv
+env/
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Geradas no Colab / na prévia local
+sessoes/
+outputs/
+lipsync_src/
+lipsync_engine/
+.pytest_cache/
