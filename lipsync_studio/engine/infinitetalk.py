@@ -292,7 +292,7 @@ class InfiniteTalkEngine:
                     if stage and stage != last_stage:
                         log(f"   {stage} ({time.time() - t0:.0f}s)")
                         self.state_detail = last_stage = stage
-                time.sleep(2)
+                time.sleep(1)
             self.stop()
             self.state, self.state_detail = "error", "Tempo esgotado ao carregar."
             raise EngineError(f"Tempo esgotado ao iniciar o InfiniteTalk.\n{self.log_tail()}")

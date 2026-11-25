@@ -42,7 +42,7 @@ class WorkerMathTests(unittest.TestCase):
 
 class ClientWorkerTests(unittest.TestCase):
     def test_start_generate_progress_and_stop(self):
-        engine, root = fake_engine(self, "--load-delay", "0.5")
+        engine, root = fake_engine(self, "--load-delay", "3")
         logs = []
         engine.start(log=logs.append)
         self.assertEqual(engine.status()["state"], "ready")
